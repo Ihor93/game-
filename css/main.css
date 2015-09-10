@@ -1,0 +1,39 @@
+body {
+    background: url("../img/bg-body.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+body > label {
+    margin: 20px 0;
+    color: Grey;
+}
+body > label input{
+    margin-left: 20px;
+    color: #030303;
+}
+canvas {
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.insideModalSetting{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#selectBg{
+    margin: auto;
+}
+.btnSetting{
+    width: 60px;
+    background-image: url(../img/grey.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 80% 80%;
+    background-size: 80% 80%;
+    height: 46px;
+}
+.btnSetting{
+    background-position: center center!important;
+}
+.bg_2{
+    background-image: url("../img/bg_repeat.jpg");
+}
